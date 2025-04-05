@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\Navbar.ui'
+# Form implementation generated from reading ui file 'Navbar.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Navbar(object):
     def setupUi(self, Navbar):
         Navbar.setObjectName("Navbar")
-        Navbar.resize(337, 1068)
+        Navbar.resize(324, 991)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -30,7 +30,7 @@ class Ui_Navbar(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.Contenedor.sizePolicy().hasHeightForWidth())
         self.Contenedor.setSizePolicy(sizePolicy)
-        self.Contenedor.setMinimumSize(QtCore.QSize(0, 900))
+        self.Contenedor.setMinimumSize(QtCore.QSize(0, 0))
         self.Contenedor.setStyleSheet("\n"
 "QPushButton {\n"
 "    background-color: black; /* Fondo blanco */\n"
@@ -204,7 +204,7 @@ class Ui_Navbar(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.QWNavbar.sizePolicy().hasHeightForWidth())
         self.QWNavbar.setSizePolicy(sizePolicy)
-        self.QWNavbar.setMinimumSize(QtCore.QSize(250, 800))
+        self.QWNavbar.setMinimumSize(QtCore.QSize(250, 0))
         self.QWNavbar.setStyleSheet("#QWNavbar {\n"
 "    background-color: white; /* Fondo blanco */\n"
 "}\n"
@@ -435,19 +435,18 @@ class Ui_Navbar(object):
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.widget)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.BtnUsuario = QtWidgets.QToolButton(self.widget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.BtnUsuario.sizePolicy().hasHeightForWidth())
         self.BtnUsuario.setSizePolicy(sizePolicy)
-        self.BtnUsuario.setMaximumSize(QtCore.QSize(130, 16777215))
         self.BtnUsuario.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.BtnUsuario.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "")
         icon10 = QtGui.QIcon()
         icon10.addPixmap(QtGui.QPixmap("assets/iconos/perfil.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.BtnUsuario.setIcon(icon10)
-        self.BtnUsuario.setIconSize(QtCore.QSize(60, 60))
+        self.BtnUsuario.setIconSize(QtCore.QSize(120, 120))
         self.BtnUsuario.setToolButtonStyle(QtCore.Qt.ToolButtonTextBesideIcon)
         self.BtnUsuario.setObjectName("BtnUsuario")
         self.horizontalLayout_3.addWidget(self.BtnUsuario)

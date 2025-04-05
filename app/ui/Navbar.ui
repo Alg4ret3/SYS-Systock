@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>337</width>
-    <height>1068</height>
+    <width>324</width>
+    <height>991</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -35,7 +35,7 @@
      <property name="minimumSize">
       <size>
        <width>0</width>
-       <height>900</height>
+       <height>0</height>
       </size>
      </property>
      <property name="styleSheet">
@@ -216,7 +216,7 @@ QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
         <property name="minimumSize">
          <size>
           <width>250</width>
-          <height>800</height>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -757,16 +757,10 @@ margin: 0;</string>
             <item>
              <widget class="QToolButton" name="BtnUsuario">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>130</width>
-                <height>16777215</height>
-               </size>
               </property>
               <property name="cursor">
                <cursorShape>ArrowCursor</cursorShape>
@@ -784,8 +778,8 @@ margin: 0;</string>
               </property>
               <property name="iconSize">
                <size>
-                <width>60</width>
-                <height>60</height>
+                <width>120</width>
+                <height>120</height>
                </size>
               </property>
               <property name="toolButtonStyle">
